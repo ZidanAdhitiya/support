@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support for Hana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Slide 1: Homepage -->
+    <div class="slide active" id="slide1" style="background-image: url('morty.jpg');">
+        <div class="overlay"></div>
+        <h1>Welcome, Hana!</h1>
+        <p>This is a place to remind you how special you are.</p>
+        <button onclick="nextSlide()">Start</button>
+    </div>
+
+    <!-- Slide 2-8: Quotes with background images -->
+    <div class="slide" id="slide2" style="background-image: url('fairy.jpg');">
+        <div class="overlay"></div>
+        <div class="timer">
+            <div class="timer-fill"></div>
+        </div>
+        <h2>Fairy Tail</h2>
+        <p>"よくわからないけど、ハナ、頑張ってね！"</p>
+        <button onclick="nextSlide()">Next</button>
+    </div>
+
+    <div class="slide" id="slide3" style="background-image: url('deku.jpg');">
+        <div class="overlay"></div>
+        <div class="timer">
+            <div class="timer-fill"></div>
+        </div>
+        <h2>Deku</h2>
+        <p>"心配しないでハナ！人生は確かに厳しいけど、僕が必ず君を守るから！"</p>
+        <button onclick="nextSlide()">Next</button>
+    </div>
+
+    <div class="slide" id="slide3" style="background-image: url('Hairo.jpg');">
+        <div class="overlay"></div>
+        <div class="timer">
+            <div class="timer-fill"></div>
+        </div>
+        <h2>Hairo</h2>
+        <p>"よぉハナ！あんまり考えすぎるなよ！体を壊したら大変だろ？元気出していこうぜ！"</p>
+        <button onclick="nextSlide()">Next</button>
+    </div>
+
+    <div class="slide" id="slide3" style="background-image: url('ali.jpeg');">
+        <div class="overlay"></div>
+        <div class="timer">
+            <div class="timer-fill"></div>
+        </div>
+        <h2>Ali Abdaal</h2>
+        <p>"Hey Hana, don’t stress too much. Your health matters, and if you get sick, it'll just make things harder. Stay positive and keep pushing through—you’ve got this!"</p>
+        <button onclick="nextSlide()">Next</button>
+    </div>
+
+    <div class="slide" id="slide3" style="background-image: url('mark.jpg');">
+        <div class="overlay"></div>
+        <div class="timer">
+            <div class="timer-fill"></div>
+        </div>
+        <h2>Mark Manson</h2>
+        <p>"Hey Hana, stop overthinking it. Life's tough, and stressing yourself out won’t help. If you get sick, it’ll just add to the mess. So, lighten up and tackle things as they come. You’re tougher than you think."</p>
+        <button onclick="nextSlide()">Next</button>
+    </div>
+
+    <div class="slide" id="slide3" style="background-image: url('ice.webp');">
+        <div class="overlay"></div>
+        <div class="timer">
+            <div class="timer-fill"></div>
+        </div>
+        <h2>Some Ice Cube</h2>
+        <p>"Umm, i will let you eat me as long as youre happy"</p>
+        <button onclick="nextSlide()">Next</button>
+    </div>
+
+    <div class="slide" id="slide3" style="background-image: url('morty.jpg');">
+        <div class="overlay"></div>
+        <div class="timer">
+            <div class="timer-fill"></div>
+        </div>
+        <h2>Adit</h2>
+        <p>"Dengerin nubo, kita semua disini ngedukung nuboi, jadi apa lagi yang nubo tunggu? ayo mimpi nubo di depan mata!"</p>
+        <button onclick="nextSlide()">Next</button>
+    </div>
+
+    <!-- Continue adding slides with background images until Slide 8 -->
+
+    <!-- Slide 9: Final message -->
+<div class="slide" id="slide9" style="background-image: url('dev.jpg');">
+    <div class="overlay"></div>
+    <h2>From your private Developer!</h2>
+    <p>お疲れ様でした</p>
+    <button onclick="resetToHome()">Reset to Home</button>
+    <p id="output"></p>
+</div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
